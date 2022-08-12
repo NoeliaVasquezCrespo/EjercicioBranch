@@ -1,0 +1,20 @@
+// Para ver en qué rama nos encontramos y sus commits
+    git log --oneline
+
+//Para crear una rama   
+    git branch nombre
+
+//Para movernos a esa rama    
+    git checkout nombre
+
+//Para ver en qué rama estamos y cuantas tenemos
+    git branch
+
+//Fusionar el contenido
+    git merge nombreRama
+
+//Eliminar una rama despues de hacer merge 
+    git branch -d nombreRama    
+
+//Ver el estado
+    git status -s    
